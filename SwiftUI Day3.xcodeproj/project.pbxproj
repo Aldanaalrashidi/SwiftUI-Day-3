@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		57C072D324F2D4F6004135CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072D224F2D4F6004135CC /* AppDelegate.swift */; };
 		57C072D524F2D4F6004135CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072D424F2D4F6004135CC /* SceneDelegate.swift */; };
-		57C072D724F2D4F6004135CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072D624F2D4F6004135CC /* ContentView.swift */; };
 		57C072D924F2D4FB004135CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C072D824F2D4FB004135CC /* Assets.xcassets */; };
 		57C072DC24F2D4FB004135CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C072DB24F2D4FB004135CC /* Preview Assets.xcassets */; };
 		57C072DF24F2D4FB004135CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C072DD24F2D4FB004135CC /* LaunchScreen.storyboard */; };
+		57C072E824F2D5B8004135CC /* KuwaitMosques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072E724F2D5B8004135CC /* KuwaitMosques.swift */; };
+		57C072EB24F2DCEB004135CC /* Mosque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072EA24F2DCEB004135CC /* Mosque.swift */; };
+		57C072ED24F2DF89004135CC /* MosqueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072EC24F2DF89004135CC /* MosqueRow.swift */; };
+		57C072EF24F2E3BF004135CC /* MosqueDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072EE24F2E3BF004135CC /* MosqueDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57C072CF24F2D4F6004135CC /* SwiftUI Day3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Day3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C072D224F2D4F6004135CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C072D424F2D4F6004135CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57C072D624F2D4F6004135CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57C072D824F2D4FB004135CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C072DB24F2D4FB004135CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57C072DE24F2D4FB004135CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57C072E024F2D4FB004135CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C072E724F2D5B8004135CC /* KuwaitMosques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuwaitMosques.swift; sourceTree = "<group>"; };
+		57C072EA24F2DCEB004135CC /* Mosque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mosque.swift; sourceTree = "<group>"; };
+		57C072EC24F2DF89004135CC /* MosqueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueRow.swift; sourceTree = "<group>"; };
+		57C072EE24F2E3BF004135CC /* MosqueDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,8 @@
 			children = (
 				57C072D224F2D4F6004135CC /* AppDelegate.swift */,
 				57C072D424F2D4F6004135CC /* SceneDelegate.swift */,
-				57C072D624F2D4F6004135CC /* ContentView.swift */,
+				57C072E624F2D518004135CC /* Assignments */,
+				57C072E924F2DCBF004135CC /* Models */,
 				57C072D824F2D4FB004135CC /* Assets.xcassets */,
 				57C072DD24F2D4FB004135CC /* LaunchScreen.storyboard */,
 				57C072E024F2D4FB004135CC /* Info.plist */,
@@ -73,6 +80,24 @@
 				57C072DB24F2D4FB004135CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57C072E624F2D518004135CC /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				57C072E724F2D5B8004135CC /* KuwaitMosques.swift */,
+				57C072EC24F2DF89004135CC /* MosqueRow.swift */,
+				57C072EE24F2E3BF004135CC /* MosqueDetails.swift */,
+			);
+			path = Assignments;
+			sourceTree = "<group>";
+		};
+		57C072E924F2DCBF004135CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57C072EA24F2DCEB004135CC /* Mosque.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C072D324F2D4F6004135CC /* AppDelegate.swift in Sources */,
+				57C072EB24F2DCEB004135CC /* Mosque.swift in Sources */,
+				57C072EF24F2E3BF004135CC /* MosqueDetails.swift in Sources */,
+				57C072E824F2D5B8004135CC /* KuwaitMosques.swift in Sources */,
 				57C072D524F2D4F6004135CC /* SceneDelegate.swift in Sources */,
-				57C072D724F2D4F6004135CC /* ContentView.swift in Sources */,
+				57C072ED24F2DF89004135CC /* MosqueRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
