@@ -16,6 +16,7 @@
 		57C072EB24F2DCEB004135CC /* Mosque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072EA24F2DCEB004135CC /* Mosque.swift */; };
 		57C072ED24F2DF89004135CC /* MosqueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072EC24F2DF89004135CC /* MosqueRow.swift */; };
 		57C072EF24F2E3BF004135CC /* MosqueDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C072EE24F2E3BF004135CC /* MosqueDetails.swift */; };
+		57F8CC2C24F3234600D134A1 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8CC2B24F3234600D134A1 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		57C072EA24F2DCEB004135CC /* Mosque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mosque.swift; sourceTree = "<group>"; };
 		57C072EC24F2DF89004135CC /* MosqueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueRow.swift; sourceTree = "<group>"; };
 		57C072EE24F2E3BF004135CC /* MosqueDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueDetails.swift; sourceTree = "<group>"; };
+		57F8CC2B24F3234600D134A1 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				57C072E724F2D5B8004135CC /* KuwaitMosques.swift */,
 				57C072EC24F2DF89004135CC /* MosqueRow.swift */,
 				57C072EE24F2E3BF004135CC /* MosqueDetails.swift */,
+				57F8CC2B24F3234600D134A1 /* SwiftUIView.swift */,
 			);
 			path = Assignments;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C072D324F2D4F6004135CC /* AppDelegate.swift in Sources */,
+				57F8CC2C24F3234600D134A1 /* SwiftUIView.swift in Sources */,
 				57C072EB24F2DCEB004135CC /* Mosque.swift in Sources */,
 				57C072EF24F2E3BF004135CC /* MosqueDetails.swift in Sources */,
 				57C072E824F2D5B8004135CC /* KuwaitMosques.swift in Sources */,
